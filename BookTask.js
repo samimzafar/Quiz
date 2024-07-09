@@ -35,13 +35,13 @@ Library.prototype.displayBooks = function () {
 
 const bookLibrary = new Library();
 
-const book1 = new Book("Oop By Umais Jordan", "U.J", "123-456-89");
-const book2 = new Book("Data Structures And Algo", "Danyal R.", "320-865-99");
-const book3 = new Book("Operating System And Networks", "Haider H.", "978-4343299-98");
+const oopBook = new Book("Oop By Umais Jordan", "U.J", "123-456-89");
+const dataStructureBook = new Book("Data Structures And Algo", "Danyal R.", "320-865-99");
+const operatingSystemBook = new Book("Operating System And Networks", "Haider H.", "978-4343299-98");
 
-bookLibrary.addBook(book1);
-bookLibrary.addBook(book2);
-bookLibrary.addBook(book3);
+bookLibrary.addBook(oopBook);
+bookLibrary.addBook(dataStructureBook);
+bookLibrary.addBook(operatingSystemBook);
 
 bookLibrary.displayBooks();
 
